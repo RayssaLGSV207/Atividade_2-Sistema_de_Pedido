@@ -106,7 +106,7 @@ class Program
     }
     
     // Desafio extra: método com parâmetro out
-    static void CalcularTotalComOut(double preco, int quantidade, out double total, out double desconto)
+    static void CalcularTotalOut(double preco, int quantidade, out double total, out double desconto)
     {
         double subtotal = preco * quantidade;
         
